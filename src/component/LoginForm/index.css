@@ -1,0 +1,46 @@
+.bg-container {
+  height: 100vh;
+  background-color: #152850;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: #e0eefe;
+  display: flex;
+  border-radius: 12px;
+}
+
+.from-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 500px;
+  border-radius: 12px;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 40px;
+  width: 250px;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+}
+
+.login-btn {
+  background-color: #1565d8;
+  color: #ffffff;
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
